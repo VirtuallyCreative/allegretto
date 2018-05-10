@@ -1,0 +1,40 @@
+{
+  "name": "allegretto",
+  "version": "0.0.1",
+  "description": "A fast and lively CSS framework",
+  "main": "dist/retto.min.css",
+  "scripts": {
+    "start": "browser-sync start --server --directory --files '**/*.css' '**/*.html'",
+    "build": "rm -r dist/ && yarn postcss &&  NODE_ENV=production yarn postcss -x .min.css",
+    "postcss": "postcss ./src/retto.css -d dist/",
+    "watch": "NODE_ENV=development yarn postcss -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "minimal",
+    "web"
+  ],
+  "author": "Al Romano",
+  "license": "MIT",
+  "homepage": "https://virtuallycreative.visualstudio.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://virtuallycreative.visualstudio.com/_git/Allegretto"
+  },
+  "bugs": {
+    "url": "https://virtuallycreative.visualstudio.com/"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "postcss-cli": "^4.1.1",
+    "postcss-csso": "^3.0.0",
+    "postcss-import": "^9.1.0"
+  },
+  "files": [
+    "src/",
+    "dist/",
+    "README.md"
+  ]
+}
