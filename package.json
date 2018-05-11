@@ -8,7 +8,8 @@
     "build": "rm -r dist/ && yarn postcss &&  NODE_ENV=production yarn postcss -x .min.css",
     "postcss": "postcss ./src/retto.css -d dist/",
     "watch": "NODE_ENV=development yarn postcss -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "harp": "NODE_ENV=production harp server --port 5000"
   },
   "keywords": [
     "css",
@@ -17,13 +18,13 @@
   ],
   "author": "Al Romano",
   "license": "MIT",
-  "homepage": "https://virtuallycreative.visualstudio.com/",
+  "homepage": "https://allegretto.azurewebsites.net/",
   "repository": {
     "type": "git",
     "url": "https://virtuallycreative.visualstudio.com/_git/Allegretto"
   },
   "bugs": {
-    "url": "https://virtuallycreative.visualstudio.com/"
+    "url": "https://allegretto.azurewebsites.net/"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
