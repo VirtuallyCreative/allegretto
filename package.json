@@ -30,7 +30,6 @@
     "autoprefixer": "^6.7.7",
     "browser-sync": "^2.18.8",
     "ejs-lint": "^0.3.0",
-    "harp": "^0.25.0",
     "postcss-cli": "^4.1.1",
     "postcss-csso": "^3.0.0",
     "postcss-import": "^9.1.0"
@@ -39,5 +38,8 @@
     "src/",
     "dist/",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "harp": "^0.25.0"
+  }
 }
