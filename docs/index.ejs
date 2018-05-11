@@ -5,7 +5,7 @@
       <h3>A
         <strong>fast &amp; lively</strong> (~3kb) CSS framework.</h3>
       <small>
-        <em>BTW, "Allegretto" is a musical term - and also my cat.</em>
+        <em>BTW, "Allegretto" is a musical term - and also my sassy cat.</em>
       </small>
     </div>
     <nav class="tabs is-center">
@@ -35,7 +35,7 @@
   <section id="start">
     <h2>Getting Started</h2>
     <p>All you need is 1 CSS file,
-      <code>retto.css</code> to be partiald in your webpage.</p>
+      <code>retto.css</code> to be linked in your webpage.</p>
     <br>
     <p>Link this CSS in your HTML:</p>
     <code>
@@ -44,12 +44,11 @@
     <br>
     <p>You can get the latest release from VSTS</p>
     <p>
-      <a href="https://virtuallycreative.visualstudio.com/_git/Allegretto" class="button outline primary">Download .zip</a>
+      <a href="<%= vstsURL %>" class="button outline primary">Visit Repo</a>
     </p>
     <br>
     <p>Install it from
-      <code>npm</code> or
-      <code>yarn</code>
+      <code>npm</code> or <code>yarn</code>
     </p>
     <code>yarn allegretto</code>
   </section>
@@ -118,7 +117,7 @@
               <%- partial('tpl/utilities'); %>
                 <br>
                 <p class="is-center">
-                  <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=https://jenil.github.io/allegretto/&text=allegretto.css%20-%20A%20micro%20CSS%20framework&via=geekGogari&hashtags=web,css">Give a shout-out</a>
+                  <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=allegretto.css%20-%20A%20micro%20CSS%20framework&via=vip3rousmango&hashtags=web,css">Give a shout-out</a>
                 </p>
   </section>
 </div>
