@@ -1,6 +1,7 @@
 {
     "globals": {
-      "vstsURL": "https://virtuallycreative.visualstudio.com/_git/Allegretto",
-      "docsURL": "https://allegretto.azurewebsites.net"
+      "gitURL": "https://github.com/VirtuallyCreative/allegretto.git",
+      "docsURL": "https://allegretto.herokuapp.com/",
+      "zipURL": "https://github.com/VirtuallyCreative/allegretto/archive/master.zip"
     }
   }

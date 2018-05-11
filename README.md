@@ -31,4 +31,4 @@ npm install allegretto
 Allegretto is designed keeping in mind *ease-of-use* and *minimalism*, hence it doesn't use any preprocessor or complex build process.
 ---
 
-&copy; Al Romano 2018. Code released under the [MIT license](https://allegretto.azurewebsites.net/).
+&copy; Al Romano 2018. Code released under the [MIT license](https://allegretto.herokuapp.com/).
