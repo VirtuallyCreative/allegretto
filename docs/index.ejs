@@ -48,7 +48,8 @@
     </p>
     <br>
     <p>Install it from
-      <code>npm</code> or <code>yarn</code>
+      <code>npm</code> or
+      <code>yarn</code>
     </p>
     <code>yarn allegretto</code>
   </section>
@@ -73,7 +74,7 @@
       <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantics</a>.
     </p>
     <p>Here is a
-      <a href="https://#/test/index.html">demo</a> of the basic HTML elements.</p>
+      <a href="#elements">demo</a> of the basic HTML elements.</p>
     <br>
     <h3 id="customizing">Customizing</h3>
     <p>allegretto comes with a basic set of
@@ -101,6 +102,8 @@
           <a href="#card">card</a>
           <a href="#tag">tag</a>
           <a href="#utilities">utilities</a>
+          <a href="#elements">elements</a>
+          <a href="#components">components</a>
         </nav>
       </div>
     </div>
@@ -116,8 +119,21 @@
               <br>
               <%- partial('tpl/utilities'); %>
                 <br>
-                <p class="is-center">
-                  <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=allegretto.css%20-%20A%20micro%20CSS%20framework&via=vip3rousmango&hashtags=web,css">Give a shout-out</a>
-                </p>
+                <%- partial('tpl/elements'); %>
+                  <br>
+                  <%- partial('tpl/components'); %>
+                    <br>
+                    <p class="is-center">
+                      <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=allegretto.css%20-%20A%20micro%20CSS%20framework&via=vip3rousmango&hashtags=web,css">Give a shout-out</a>
+                    </p>
   </section>
 </div>
+<footer class="is-text-center">
+  <p>
+    <a href="#top">back to top</a> &bull;
+  </p>
+  </p>
+  <h5>Made by
+    <a href="https://virtuallycreative.ca/" target="_blank">Al Romano</a>
+  </h5>
+</footer>

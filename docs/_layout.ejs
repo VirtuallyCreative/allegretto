@@ -13,28 +13,17 @@
 
 <body id="top">
     <%- yield %>
-        <footer class="is-text-center">
-            <p>
-                <a href="#top">back to top</a> &bull;
-            </p>
-            </p>
-            <h5>Made by
-                <a href="https://virtuallycreative.ca/" target="_blank">Al Romano</a>
-            </h5>
-        </footer>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11177404-3"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11177404-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-            gtag('config', 'UA-11177404-3');
-        </script>
-
+        gtag('config', 'UA-11177404-3');
+    </script>
 </body>
-
 </html>
