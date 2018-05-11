@@ -18,13 +18,13 @@
   ],
   "author": "Al Romano",
   "license": "MIT",
-  "homepage": "https://allegretto.azurewebsites.net/",
+  "homepage": "https://allegretto.herokuapp.com/",
   "repository": {
     "type": "git",
-    "url": "https://virtuallycreative.visualstudio.com/_git/Allegretto"
+    "url": "git@github.com:VirtuallyCreative/allegretto.git"
   },
   "bugs": {
-    "url": "https://allegretto.azurewebsites.net/"
+    "url": "https://github.com/VirtuallyCreative/allegretto/issues/new"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
