@@ -9,7 +9,7 @@
     "postcss": "postcss ./src/retto.css -d dist/",
     "watch": "NODE_ENV=development yarn postcss -w",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "NODE_ENV=production harp server --port 5000"
+    "docs": "harp server docs --port 5000"
   },
   "keywords": [
     "css",
