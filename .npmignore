@@ -1,0 +1,6 @@
+node_modules
+_site
+*.lock
+docs
+vs
+.idea
