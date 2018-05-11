@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>allegretto - A fast &amp; lively CSS framework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/allegretto">
+    <link rel="stylesheet" href="./doc-styles.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body id="top">
+    <%- yield %>
+        <footer class="is-text-center">
+            <p>
+                <a href="#top">back to top</a> &bull;
+                <a href="https://github.com/vip3rousmango/allegretto">report an issue</a>
+            </p>
+            <p>Want icons for your project too? Checkout
+                <a href="https://icongr.am" target="_blank">Icongr.am 🚀</a>
+            </p>
+            <h5>Made by
+                <a href="https://virtuallycreative.ca" target="_blank">Al Romano</a>
+            </h5>
+        </footer>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11177404-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-11177404-3');
+        </script>
+
+</body>
+
+</html>

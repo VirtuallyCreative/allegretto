@@ -1,0 +1,124 @@
+<div class="container">
+  <div class="hero is-full-screen">
+    <div class="logo is-center is-vertical-align">
+      <img src="./logo.png" alt="">
+      <h3>A
+        <strong>fast &amp; lively</strong> (~3kb) CSS framework.</h3>
+      <small>
+        <em>BTW, "Allegretto" is a musical term - and also my cat.</em>
+      </small>
+    </div>
+    <nav class="tabs is-center">
+      <a href="#features">features</a>
+      <a href="#start">start</a>
+      <a href="#docs">docs</a>
+    </nav>
+  </div>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li> Super light-weight. Just 3kb (minified + gzipped).</li>
+      <li> Fast and lively, just plug-n-play</li>
+      <li> A 12-Col
+        <a href="#grid">grid</a> that actually works</li>
+      <li> Easy to
+        <a href="#customizing">extend</a> with your own CSS variables</li>
+      <li> Comes with a handful of
+        <a href="#components">components</a> &amp;
+        <a href="#utilities">utilities</a>
+      </li>
+      <li> Solid Semantics</li>
+    </ul>
+  </section>
+
+  <section id="start">
+    <h2>Getting Started</h2>
+    <p>All you need is 1 CSS file,
+      <code>retto.css</code> to be partiald in your webpage.</p>
+    <br>
+    <p>Link this CSS in your HTML:</p>
+    <code>
+      <link rel="stylesheet" href="https://unpkg.com/allegretto@latest">
+    </code>
+    <br>
+    <p>You can get the latest release from VSTS</p>
+    <p>
+      <a href="https://virtuallycreative.visualstudio.com/_git/Allegretto" class="button outline primary">Download .zip</a>
+    </p>
+    <br>
+    <p>Install it from
+      <code>npm</code> or
+      <code>yarn</code>
+    </p>
+    <code>yarn allegretto</code>
+  </section>
+
+  <section id="docs">
+    <header class="row">
+      <div class="col is-vertical-align">
+        <h2 class="is-marginless">Docs</h2>
+      </div>
+      <div class="col is-right">
+        <nav class="tabs">
+          <a href="#customizing">customizing</a>
+          <a href="#components">components</a>
+        </nav>
+      </div>
+    </header>
+    <br>
+    <p>
+      allegretto is
+      <em>easy</em> to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles
+      to the HTML following the
+      <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantics</a>.
+    </p>
+    <p>Here is a
+      <a href="https://#/test/index.html">demo</a> of the basic HTML elements.</p>
+    <br>
+    <h3 id="customizing">Customizing</h3>
+    <p>allegretto comes with a basic set of
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
+    :root { --primary-color: #1a9f60; --lightGrey-color: #ddd; --darkGrey-color: #888; --grid-maxWidth: 120rem; --grid-gutter:
+    1.5rem; --font-family: "Helvetica Neue", sans-serif; }
+    <br>
+    <p>To override the variables, just add them to your
+      <code>:root</code> selector after importing
+      <code>retto.css</code>
+    </p>
+    @import url(retto.css) :root { --primary-color: #da1d50; /* brand color */ --grid-maxWidth: 108rem; /* max container width
+    1080px */ } /* Other styles..... */
+  </section>
+  <section id="components">
+    <div class="row">
+      <div class="col is-vertical-align">
+        <h2 class="is-marginless">Components</h2>
+      </div>
+      <div class="col is-right">
+        <nav class="tabs">
+          <a href="#grid">grid</a>
+          <a href="#buttons">buttons</a>
+          <a href="#nav">nav</a>
+          <a href="#card">card</a>
+          <a href="#tag">tag</a>
+          <a href="#utilities">utilities</a>
+        </nav>
+      </div>
+    </div>
+    <%- partial('tpl/grid'); %>
+      <br>
+      <%- partial('tpl/buttons'); %>
+        <br>
+        <%- partial('tpl/navs'); %>
+          <br>
+          <%- partial('tpl/card'); %>
+            <br>
+            <%- partial('tpl/tag'); %>
+              <br>
+              <%- partial('tpl/utilities'); %>
+                <br>
+                <p class="is-center">
+                  <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=https://jenil.github.io/allegretto/&text=allegretto.css%20-%20A%20micro%20CSS%20framework&via=geekGogari&hashtags=web,css">Give a shout-out</a>
+                </p>
+  </section>
+</div>
