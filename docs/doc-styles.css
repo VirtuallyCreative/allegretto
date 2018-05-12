@@ -1,3 +1,7 @@
+body {
+    background:white url(./bg.jpg) top left repeat;
+}
+
 body>.container {
     max-width: 720px;
 }
