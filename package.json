@@ -5,9 +5,9 @@
   "main": "dist/retto.min.css",
   "scripts": {
     "start": "browser-sync start --server --directory --files '**/*.css' '**/*.html'",
-    "build": "rm -r dist/ && yarn postcss &&  NODE_ENV=production yarn postcss -x .min.css",
+    "build": "rm -r dist/ && yarn postcss && SET NODE_ENV=production && yarn postcss -x .min.css",
     "postcss": "postcss ./src/retto.css -d dist/",
-    "watch": "NODE_ENV=development yarn postcss -w",
+    "watch": "SET NODE_ENV=development && yarn postcss -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "harp server docs --port 5000"
   },
@@ -29,6 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "browser-sync": "^2.18.8",
+    "cssnano": "^3.10.0",
     "ejs-lint": "^0.3.0",
     "postcss-cli": "^4.1.1",
     "postcss-csso": "^3.0.0",
