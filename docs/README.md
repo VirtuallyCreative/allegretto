@@ -1,7 +1,7 @@
 # Allegretto
-A fast and lively CSS framework. 
+A fast and lively CSS framework.
 
-Full details on [VSTS](https://allegretto.azurewebsites.net/)
+Full details on [GitHub](https://github.com/VirtuallyCreative/allegretto)
 
 To run docs locally first install Harp and then run:
 ```
