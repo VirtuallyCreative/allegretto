@@ -33,6 +33,20 @@
       <a href="#!" class="button outline">Button</a>
     </div>
   </nav>
+  <pre><code class="html">
+      &lt;nav class="nav"&gt;
+      &lt;div class="nav-left"&gt;
+        &lt;a class="brand" href="#"&gt;Brand&lt;/a&gt;
+        &lt;div class="tabs"&gt;
+          &lt;a href="#!"&gt;Link 1&lt;/a&gt;
+          &lt;a href="#!" class="active"&gt;Link 2&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="nav-right"&gt;
+        &lt;a href="#!" class="button outline"&gt;Button&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+  </code></pre>
   <hr>
   <nav class="nav">
     <div class="nav-left">
@@ -41,7 +55,7 @@
     </div>
     <div class="nav-center">
       <a class="brand" href="#">
-        <img src="./logo.svg" alt="">
+        <img src="../logo.png" alt="Brand">
       </a>
     </div>
     <div class="nav-right">
@@ -49,6 +63,23 @@
       <a href="#!">Link 4</a>
     </div>
   </nav>
+  <pre><code class="html">
+      &lt;nav class="nav"&gt;
+      &lt;div class="nav-left"&gt;
+        &lt;a href="#!" class="active"&gt;Link 1&lt;/a&gt;
+        &lt;a href="#!"&gt;Link 2&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="nav-center"&gt;
+        &lt;a class="brand" href="#"&gt;
+          &lt;img src="./logo.svg" alt="Brand"&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="nav-right"&gt;
+        &lt;a href="#!"&gt;Link 3&lt;/a&gt;
+        &lt;a href="#!"&gt;Link 4&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+  </code></pre>
   <hr>
   <p>You can also have tabs without a nav bar. Simply make a
     <code>.tabs</code> container and add links in it. To make tabs go full width just add a
@@ -59,10 +90,24 @@
     <a href="#!">Tab 2</a>
     <a href="#!" class="active">Tab 3</a>
   </nav>
+  <pre><code class="html">
+    &lt;nav class="tabs"&gt;
+      &lt;a href="#!"&gt;Tab 1&lt;/a&gt;
+      &lt;a href="#!"&gt;Tab 2&lt;/a&gt;
+      &lt;a href="#!" class="active"&gt;Tab 3&lt;/a&gt;
+    &lt;/nav&gt;
+  </code></pre>
   <br>
   <nav class="tabs is-full">
     <a href="#!">Tab 1</a>
     <a href="#!" class="active">Tab 2</a>
     <a href="#!">Tab 3</a>
   </nav>
+  <pre><code class="html">
+    &lt;nav class="tabs is-full"&gt;
+      &lt;a href="#!"&gt;Tab 1&lt;/a&gt;
+      &lt;a href="#!" class="active"&gt;Tab 2&lt;/a&gt;
+      &lt;a href="#!"&gt;Tab 3&lt;/a&gt;
+    &lt;/nav>  
+  </code></pre>
 </section>
