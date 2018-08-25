@@ -1,9 +1,9 @@
 # Allegretto
 
 
-[![npm](https://img.shields.io/npm/dt/allegretto:package.svg)](https://www.npmjs.com/package/allegretto)
+[![npm](https://img.shields.io/npm/dt/:allegretto.svg)](https://www.npmjs.com/package/allegretto)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/virtually-creative/allegretto)
-[![GitHub issues](https://img.shields.io/github/VirtuallyCreative/allegretto/issues/badges/shields.svg)](https://github.com/VirtuallyCreative/allegretto/issues)
+[![GitHub issues](https://img.shields.io/VirtuallyCreative/allegretto/issues/badges/shields.svg)](https://github.com/VirtuallyCreative/allegretto/issues)
 
 
 
