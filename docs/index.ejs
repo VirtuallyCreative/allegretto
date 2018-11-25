@@ -64,9 +64,11 @@
     </header>
     <br>
     <p>
-      Allegretto was created as a lightweight framework to help prototype front-end markup that requires strict A.O.D.A. (WCAG
+      Allegretto was created as a lightweight framework to help prototype front-end markup that requires strict
+      A.O.D.A. (WCAG
       2.0) compliance by taking advantage of
-      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">HTML5 Semantic markup structures</a>.
+      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">HTML5
+        Semantic markup structures</a>.
     </p>
     <p>Below is a
       <a href="#elements">demo</a> of the semantic HTML5 elements styled by Allegretto.</p>
@@ -74,7 +76,7 @@
     <h3 id="customizing">Customizing</h3>
     <p>allegretto comes with a basic set of
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
-      <pre><code class="css">
+    <pre><code class="css">
       :root { 
         --primary-color: #1a9f60; 
         --lightGrey-color: #ddd; 
@@ -86,7 +88,7 @@
       </code></pre>
     <br>
     <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>retto.css</code>.</p>
-    
+
     <pre><code class="css">
       @import url(retto.css) 
       :root { 
@@ -95,7 +97,7 @@
       } 
       /* Other styles..... */
     </code></pre>
-    </section>
+  </section>
   <section id="components">
     <div class="row">
       <div class="col is-vertical-align">
@@ -116,31 +118,33 @@
       </div>
     </div>
     <%- partial('_tpl/grid'); %>
-      <br>
-      <%- partial('_tpl/buttons'); %>
-        <br>
-        <%- partial('_tpl/navs'); %>
-          <br>
-          <%- partial('_tpl/card'); %>
-            <br>
-            <%- partial('_tpl/tag'); %>
-              <br>
-              <%- partial('_tpl/utilities'); %>
-                <br>
-                <%- partial('_tpl/elements'); %>
-                  <br>
-                  <%- partial('_tpl/components'); %>
-                    <br>
-                    <%- partial('_tpl/helpers'); %>
-                      <br>
-                      <p class="is-center">
-                        <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=Allegretto%20-%20A%20fast%20lively%20CSS%20framework&via=vip3rousmango&hashtags=web,css,flexbox">Give a shout-out</a>
-                      </p>
+    <br>
+    <%- partial('_tpl/buttons'); %>
+    <br>
+    <%- partial('_tpl/navs'); %>
+    <br>
+    <%- partial('_tpl/card'); %>
+    <br>
+    <%- partial('_tpl/tag'); %>
+    <br>
+    <%- partial('_tpl/utilities'); %>
+    <br>
+    <%- partial('_tpl/elements'); %>
+    <br>
+    <%- partial('_tpl/components'); %>
+    <br>
+    <%- partial('_tpl/helpers'); %>
+    <br>
+    <p class="is-center">
+      <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=Allegretto%20-%20A%20fast%20lively%20CSS%20framework&via=vip3rousmango&hashtags=web,css,flexbox">Give
+        a shout-out</a>
+    </p>
   </section>
 </div>
 <footer class="is-text-center">
   <p>
-    <a href="#top">back to top</a> &bull; <a href="https://github.com/VirtuallyCreative/allegretto" target="_blank">View on GitHub</a>
+    <a href="#top">back to top</a> &bull; <a href="https://github.com/VirtuallyCreative/allegretto" target="_blank">View
+      on GitHub</a>
   </p>
   </p>
   <h5>Made with &lt;3 by <a href="https://virtuallycreative.ca/" target="_blank">Virtually(Creative)</a>
