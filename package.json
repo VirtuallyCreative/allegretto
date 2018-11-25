@@ -8,7 +8,7 @@
     "build": "rm -r dist/ && yarn postcss && SET NODE_ENV=production && yarn postcss -x .min.css",
     "postcss": "postcss ./src/retto.css -d dist/",
     "watch": "SET NODE_ENV=development && yarn postcss -w",
-    "test": "echo \"Error: no test specified\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "harp server docs --port 5000"
   },
   "keywords": [
