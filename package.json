@@ -1,6 +1,6 @@
 {
   "name": "allegretto",
-  "version": "0.1.0",
+  "version": "0.0.6",
   "description": "A fast and lively CSS framework",
   "main": "dist/retto.min.css",
   "scripts": {
