@@ -12,16 +12,13 @@
 }
 
 html {
-    font-size: 62.5%;
-    line-height: 1.15;
+    font-size: calc(1em + 1vw);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
     letter-spacing: 0.01em;
-    line-height: 1.6;
-    font-size: 1.6rem;
     font-weight: 400;
     font-family: "Segoe UI", "Helvetica Neue", sans-serif; /*fallback*/
     font-family: var(--font-family);
@@ -78,10 +75,10 @@ p {
 
 p a {
     text-decoration: none;
-    text-shadow: 0.05em 0 0 var(--primary-color), -0.05em 0 0 var(--primary-color),
-                0 0 .05em 0 var(--primary-color), 0 -0.05em 0 var(--primary-color),
-                0.1em 0 0 var(--primary-color), -0.1em 0 0 var(--primary-color),
-                0 0.1em 0 var(--primary-color), 0 -0.1em 0 var(--primary-color);
+    text-shadow: 0.05em 0 0 var(--lightGrey-color), -0.05em 0 0 var(--lightGrey-color),
+                0 0 .05em 0 var(--lightGrey-color), 0 -0.05em 0 var(--lightGrey-color),
+                0.1em 0 0 var(--lightGrey-color), -0.1em 0 0 var(--lightGrey-color),
+                0 0.1em 0 var(--lightGrey-color), 0 -0.1em 0 var(--lightGrey-color);
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
     background-repeat: repeat-x;
     background-position: bottom 0.05em center;
