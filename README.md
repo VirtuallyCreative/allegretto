@@ -18,13 +18,17 @@ Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patter
 CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/allegretto">
+<link rel="stylesheet" href="https://unpkg.com/allegretto@latest/dist/retto.min.css">
 ```
 
 npm or yarn:
 
 ```bash
 npm install allegretto
+```
+
+```bash
+yarn allegretto
 ```
 
 ### CSS PreProcessor Support (LESS/SASS/STYLUS)
