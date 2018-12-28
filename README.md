@@ -1,7 +1,7 @@
 # Allegretto
 
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/virtually-creative/allegretto)
 [![NPM](https://nodei.co/npm/allegretto.png?compact=true)](https://npmjs.org/package/allegretto)
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/virtually-creative/allegretto)
 
 Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patterns in mind.
 
