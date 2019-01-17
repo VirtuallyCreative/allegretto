@@ -2,10 +2,6 @@ body {
     background:white url(./bg.jpg) top left repeat;
 }
 
-body>.container {
-    max-width: 1140px;
-}
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -138,3 +134,9 @@ hr {
 .highlight .vg { color: #22b3eb } /* Name.Variable.Global */
 .highlight .vi { color: #22b3eb } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+@media (max-width: 768px) {
+    .is-right {
+
+    }
+   }
