@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-    background:white url(./bg.jpg) top left repeat;
-    font-family: 'Roboto', sans-serif;
+    background: white url(./bg.jpg) top left repeat;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -68,6 +72,6 @@ hr {
     align-items: flex-start;
 }
 
-.buttons > * {
+.buttons>* {
     margin: .5rem;
 }

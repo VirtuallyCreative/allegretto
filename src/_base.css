@@ -1,14 +1,27 @@
 :root {
-    --primary-color: #1a9f60;
+    --primary-color: #0099cc;
     --lightGrey-color: #d2d6dd;
     --darkGrey-color: #84868b;
     --grid-maxWidth: 120rem;
     --grid-gutter: 2rem;
-    --font-family: "Roboto", sans-serif;
+    --font-family: "Inter UI", sans-serif;
+    --font-family-alt: 'Inter UI var alt', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    /*fallback*/
+    font-family: var(--font-family);
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: var(--font-family-alt);
+    }
 }
 
 html {
@@ -19,9 +32,6 @@ html {
 
 body {
     letter-spacing: 0.01em;
-    font-weight: 400;
-    font-family: "Segoe UI", "Helvetica Neue", sans-serif; /*fallback*/
-    font-family: var(--font-family);
     margin: 0;
     padding: 0;
 }
@@ -76,9 +86,9 @@ p {
 p a {
     text-decoration: none;
     text-shadow: 0.05em 0 0 var(--lightGrey-color), -0.05em 0 0 var(--lightGrey-color),
-                0 0 .05em 0 var(--lightGrey-color), 0 -0.05em 0 var(--lightGrey-color),
-                0.1em 0 0 var(--lightGrey-color), -0.1em 0 0 var(--lightGrey-color),
-                0 0.1em 0 var(--lightGrey-color), 0 -0.1em 0 var(--lightGrey-color);
+        0 0 .05em 0 var(--lightGrey-color), 0 -0.05em 0 var(--lightGrey-color),
+        0.1em 0 0 var(--lightGrey-color), -0.1em 0 0 var(--lightGrey-color),
+        0 0.1em 0 var(--lightGrey-color), 0 -0.1em 0 var(--lightGrey-color);
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
     background-repeat: repeat-x;
     background-position: bottom 0.05em center;
@@ -166,7 +176,7 @@ img {
 }
 
 fieldset {
-    border: 1px solid var(--lightGrey-color); 
+    border: 1px solid var(--lightGrey-color);
 }
 
 iframe {
