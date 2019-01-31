@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 body {
     background: white url(./bg.jpg) top left repeat;
+    font-weight: 400;
 }
 
 h1,
@@ -10,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 
 .hero {
