@@ -3,3 +3,4 @@ _site
 .github
 .vscode
 docs/retto.min.css
+.env

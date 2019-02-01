@@ -3,16 +3,17 @@ language: node_js
 node_js:
   - 10.15.1
 dist: docs
+script: 'true'
 addons:
   chrome: stable
 before_script:
   - yarn
 after_script:
   - harp server docs
-script: 'true'
+
 
 deploy:
   provider: heroku
   api_key:
-    secure: "7f89b8f6-b0e7-40ea-bc01-d8ae1a408fce"
+    secure: process.env.HEROKUAPI
   run: "harp server docs --port $PORT"
