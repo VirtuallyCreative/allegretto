@@ -1,6 +1,5 @@
 node_modules
 _site
-*.lock
 .github
 .vscode
 docs/retto.min.css
