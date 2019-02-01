@@ -5,8 +5,6 @@ node_js:
 dist: docs
 addons:
   chrome: stable
-before_script:
-  - yarn
 after_script:
   - harp server docs
 
