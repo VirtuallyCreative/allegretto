@@ -5,10 +5,11 @@
   "main": "dist/retto.min.css",
   "scripts": {
     "start": "browser-sync start --server --directory --files '**/*.css' '**/*.html'",
-    "build": "rm -r dist/ && yarn postcss",
+    "lint": "stylelint 'src/*.css !retto*'",
+    "build": "rm -r dist/ && yarn lint && yarn postcss",
     "postcss": "postcss ./src/retto.css -d dist/ --ext min.css",
     "watch": "SET NODE_ENV=development && yarn postcss -w",
-    "test": "echo \"Error: no test specified\"",
+    "test": "yarn lint",
     "docs": "harp server docs --port 5000"
   },
   "keywords": [
@@ -33,7 +34,9 @@
     "postcss-cli": "^6.1.1",
     "postcss-csso": "^3.0.0",
     "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.5.0"
+    "postcss-preset-env": "^6.5.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0"
   },
   "files": [
     "src/",
