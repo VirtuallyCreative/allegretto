@@ -1,11 +1,16 @@
-let plugins = [
-  require("postcss-import"),
-  require("autoprefixer")({ browsers: "last 2 versions" }),
-  require('cssnano')({ preset: 'default' })
-];
-
-if (process.env.NODE_ENV == 'production') plugins.push(require("postcss-csso"))
+const postcssPresetEnv = require('postcss-preset-env');
 
 module.exports = {
-  plugins
-}
+  plugins: [
+      require('postcss-csso'),
+      require('postcss-import'),
+      postcssPresetEnv({ browsers: 'last 2 versions' }),
+      require('cssnano')({
+        preset: ['default', {
+            discardComments: {
+                removeAll: true,
+            },
+        }]
+    }),
+  ],
+};
