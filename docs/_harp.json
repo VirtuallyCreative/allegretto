@@ -2,6 +2,7 @@
     "globals": {
       "gitURL": "https://github.com/VirtuallyCreative/allegretto.git",
       "docsURL": "https://allegretto.herokuapp.com/",
-      "zipURL": "https://github.com/VirtuallyCreative/allegretto/archive/master.zip"
+      "zipURL": "https://github.com/VirtuallyCreative/allegretto/archive/master.zip",
+      "upkURL": "https://unpkg.com/allegretto"
     }
   }
