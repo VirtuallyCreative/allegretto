@@ -5,8 +5,7 @@
     --darkGrey-color: #84868b;
     --grid-maxWidth: 120rem;
     --grid-gutter: 2rem;
-    --font-family: "Inter UI", sans-serif;
-    --font-family-alt: "Inter UI var alt", sans-serif
+    --font-family: "Inter UI", sans-serif
 }
 
 * {
@@ -16,23 +15,14 @@
 
 html {
     font-family: Segoe UI, Helvetica Neue, sans-serif;
-    font-family: var(--font-family)
-}
-
-@supports (font-variation-settings:normal) {
-    html {
-        font-family: var(--font-family-alt)
-    }
-}
-
-html {
+    font-family: var(--font-family);
+    font-size: 100%;
     font-size: calc(1em + 1vw);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
 
 body {
-    letter-spacing: .01em;
     margin: 0;
     padding: 0
 }
@@ -80,8 +70,11 @@ a:hover:not(.button) {
     opacity: .6
 }
 
-p {
-    margin-top: 0
+p,
+section {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5
 }
 
 p a {
