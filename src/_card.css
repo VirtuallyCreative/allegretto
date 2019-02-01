@@ -12,3 +12,14 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.card footer > .button {
+  padding: 0.5rem 1.75rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card footer > .button {
+    padding: 0.75rem 1.25rem;
+  }
+}

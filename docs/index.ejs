@@ -65,8 +65,7 @@
     <br>
     <p>
       Allegretto was created as a lightweight framework to help prototype front-end markup that requires strict
-      A.O.D.A. (WCAG
-      2.0) compliance by taking advantage of
+      A.O.D.A. (WCAG 2.0) compliance by taking advantage of
       <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">HTML5
         Semantic markup structures</a>.
     </p>
@@ -77,14 +76,14 @@
     <p>allegretto comes with a basic set of
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
     <pre><code class=" prettyprint css">
-      :root { 
-        --primary-color: #1a9f60; 
-        --lightGrey-color: #ddd; 
-        --darkGrey-color: #888; 
-        --grid-maxWidth: 120rem; 
-        --grid-gutter: 1.5rem; 
-        --font-family: "Helvetica Neue", sans-serif; 
-      }
+  :root {
+    --primary-color: #0099cc;
+    --lightGrey-color: #d2d6dd;
+    --darkGrey-color: #84868b;
+    --grid-maxWidth: 120rem;
+    --grid-gutter: 2rem;
+    --font: 1rem/1.6 "Inter UI", sans-serif;
+}
       </code></pre>
     <br>
     <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>retto.css</code>.</p>
@@ -93,7 +92,8 @@
       @import url(retto.css) 
       :root { 
         --primary-color: #da1d50; /* brand color */ 
-        --grid-maxWidth: 108rem; /* max container width 1080px */ 
+        --grid-maxWidth: 108rem; /* max container width 1080px */
+        --font: 0.9rem/1.2 "Roboto", sans-serif; /* size/line-height | family */
       } 
       /* Other styles..... */
     </code></pre>

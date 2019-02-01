@@ -2,33 +2,54 @@
     <h4>Common Helpers</h4>
     <p>Along with the base styles, we also provide some commonly used helper classes.</p>
 
-<p><code>.hidden</code><br />
-The hidden class can be added to any element that you want to hide visually and from screen readers. It could be an element that will be populated and displayed later, or an element you will hide with JavaScript.</p>
+    <p><code>.hidden</code><br />
+        The hidden class can be added to any element that you want to hide visually and from screen readers. It could
+        be an element that will be populated and displayed later, or an element you will hide with JavaScript.</p>
 
-<p><code>.visuallyhidden</code><br />
-The visuallyhidden class can be added to any element that you want to hide visually, while still have its content accessible to screen readers.</p>
+    <p><code>.visuallyhidden</code><br />
+        The visuallyhidden class can be added to any element that you want to hide visually, while still have its
+        content accessible to screen readers.</p>
 
-<p>
-<em>See also:</em><br />
-<ul>
-<li><a href="https://webaim.org/techniques/css/invisiblecontent/" target="_blank">CSS in Action: Invisible Content Just for Screen Reader Users</a></li>
-<li><a href="https://snook.ca/archives/html_and_css/hiding-content-for-accessibility" target="_blank">Hiding content for accessibility</a></li>
-<li><a href="https://github.com/h5bp/html5-boilerplate/issues/194" target="_blank">HTML5 Boilerplate - Issue #194</a></li>
-</ul>
-<em>N.B. <a href="https://www.paciellogroup.com/blog/2012/08/notes-on-accessible-css-image-sprites/">The visuallyhidden class can be an accessibility issue for users using high contrast modes.</a></em>
-</p>
+    <p>
+        <em>See also:</em><br />
+        <ul>
+            <li><a href="https://webaim.org/techniques/css/invisiblecontent/" target="_blank">CSS in Action: Invisible
+                    Content Just for Screen Reader Users</a></li>
+            <li><a href="https://snook.ca/archives/html_and_css/hiding-content-for-accessibility" target="_blank">Hiding
+                    content for accessibility</a></li>
+            <li><a href="https://github.com/h5bp/html5-boilerplate/issues/194" target="_blank">HTML5 Boilerplate -
+                    Issue #194</a></li>
+        </ul>
+        <em>N.B. <a href="https://www.paciellogroup.com/blog/2012/08/notes-on-accessible-css-image-sprites/">The
+                visuallyhidden class can be an accessibility issue for users using high contrast modes.</a></em>
+    </p>
 
-<p>Use JavaScript to detect when images are disabled and remove the CSS visually hidden display state of the text alternative. Use JavaScript to detect when Windows high contrast mode is enabled and remove the CSS visually hidden display state of the text alternative.</p>
+    <p>Use JavaScript to detect when images are disabled and remove the CSS visually hidden display state of the text
+        alternative. Use JavaScript to detect when Windows high contrast mode is enabled and remove the CSS visually
+        hidden display state of the text alternative.</p>
 
-<p><code>.invisible</code><br />
-The invisible class can be added to any element that you want to hide visually and from screen readers, but without affecting the layout.</p>
+    <p><code>.invisible</code><br />
+        The invisible class can be added to any element that you want to hide visually and from screen readers, but
+        without affecting the layout.</p>
 
-<p>As opposed to the hidden class that effectively removes the element from the layout, the invisible class will simply make the element invisible while keeping it in the flow and not affecting the positioning of the surrounding content.</p>
+    <p>As opposed to the hidden class that effectively removes the element from the layout, the invisible class will
+        simply make the element invisible while keeping it in the flow and not affecting the positioning of the
+        surrounding content.</p>
 
-<p><em>N.B. Try to stay away from, and don't use the classes specified above for <a href="https://en.wikipedia.org/wiki/Keyword_stuffing" target="_blank">keyword stuffing</a> as you will harm your site's ranking!</em></p>
+    <p><em>N.B. Try to stay away from, and don't use the classes specified above for <a href="https://en.wikipedia.org/wiki/Keyword_stuffing"
+                target="_blank">keyword stuffing</a> as you will harm your site's ranking!</em></p>
 
-<p><code>.clearfix</code><br />
-The clearfix class can be added to any element to ensure that it always fully contains its floated children.</p>
+    <p><code>.clearfix</code><br />
+        The clearfix class can be added to any element to ensure that it always fully contains its floated children.</p>
 
-<p>Over the years there have been many variants of the clearfix hack, but currently, we use the <a href="https://nicolasgallagher.com/micro-clearfix-hack/">micro clearfix</a>.</p>
+    <p>Over the years there have been many variants of the clearfix hack, but currently, we use the <a href="https://nicolasgallagher.com/micro-clearfix-hack/">micro
+            clearfix</a>.</p>
+
+    <p><code>.no-svg .icon-only</code><br/>
+    If you use SVGs for interactable elements such as buttons, and the SVG fails to load, a rule like this one will help maintain accessibility.
+    Make sure it has the appropriate aria attributes set in the HTML. </p>
+
+    <p>Empty links will be shown by default.</p>
+
+    <p>Broken Images should provide some output so you notice they're broken.</p>
 </section>

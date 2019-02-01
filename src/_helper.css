@@ -73,3 +73,48 @@
 .clearfix:after {
     clear: both;
 }
+
+/*
+ * SVG Icons Fallback
+ *
+ * If you use SVGs for interactable elements such as buttons, and the SVG fails to load, a rule like this one will help maintain accessibility.
+ * Make sure it has the appropriate aria attributes set in the HTML.
+*/
+
+.no-svg .icon-only:after {    
+    content: attr(aria-label);  
+}
+
+/*
+ * Force Empty Links to Show
+ *
+ * Useful for links that are inserted via a CMS, which don’t usually have a class attribute and helps you 
+ * style them specifically without generically affecting the cascade.
+ */
+
+ a[href^="http"]:empty::before {    
+    content: attr(href);  
+}
+
+/*
+ * Style Broken Images
+ */
+
+ img {    
+    display: block;      
+    height: auto;    
+    line-height: 2;    
+    position: relative;    
+    text-align: center;    
+    width: 100%;  
+}
+img:before {    
+    content: "We're sorry, the image below is missing :(";    
+    display: block;    
+    margin-bottom: 10px;  
+}    
+img:after {    
+    content: "(url: " attr(src) ")";   
+    display: block;    
+    font-size: 12px;  
+}

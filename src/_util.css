@@ -90,6 +90,13 @@
     display: none !important;
 }
 
+.is-highlighted {
+    display: inline-block;
+    box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
 @media screen and (max-width: 480px) {
     .hide-phone {
         display: none !important;
