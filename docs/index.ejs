@@ -2,7 +2,7 @@
   <div class="hero is-full-screen">
     <div class="logo is-center is-vertical-align">
       <br />
-      <img src="./logo.png" alt="">
+      <img src="./logo.png" alt="Allegretto Logo">
       <h3>Allegretto - the <strong>fast &amp; lively</strong> (~10kb) CSS framework.</h3>
       <small>
         <em>BTW, "Allegretto" is a musical term - and also my sassy cat.</em>
@@ -77,14 +77,18 @@
     <p>allegretto comes with a basic set of
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
     <pre><code class=" prettyprint css">
-:root {
-  --primary-color: #0099cc;
-  --lightGrey-color: #d2d6dd;
-  --darkGrey-color: #84868b;
-  --grid-maxWidth: 120rem;
-  --grid-gutter: 2rem;
-  --font: 1rem/1.6 "Inter UI", sans-serif;
-}
+  :root {
+    --color-primary: #0099cc;
+    --color-lightGrey: #d2d6dd;
+    --color-grey: #7e818b;
+    --color-darkGrey: #3f4144;
+    --color-error: #d43939;
+    --color-success: #28bd14;
+    --grid-maxWidth: 120rem;
+    --grid-gutter: 2rem;
+    --font-size: 1.6rem;
+    --font-family: "Inter UI", sans-serif;
+  }
       </code></pre>
     <br>
     <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>retto.css</code>.</p>
