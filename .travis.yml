@@ -12,5 +12,5 @@ after_script:
 deploy:
   provider: heroku
   api_key:
-    secure: {{HEROKUAPI}}
+    secure: $HEROKUAPI
   run: "harp server docs --port $PORT"
