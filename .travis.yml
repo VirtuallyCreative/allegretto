@@ -5,12 +5,15 @@ node_js:
 dist: docs
 addons:
   chrome: stable
+
+script: true
+
 after_script:
-  - harp server docs
+  - yarn build && harp server docs
 
 
 deploy:
   provider: heroku
   api_key:
-    secure: '7f89b8f6-b0e7-40ea-bc01-d8ae1a408fce'
+    secure: {{HEROKUAPI}}
   run: "harp server docs --port $PORT"
