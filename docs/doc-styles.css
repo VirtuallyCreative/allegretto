@@ -22,7 +22,7 @@ h6 {
     flex-direction: column;
 }
 
-.logo svg {
+.logo img {
     width: 100%;
     max-width: 300px;
 }

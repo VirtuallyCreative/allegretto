@@ -7,12 +7,8 @@
     --color-success: #28bd14;
     --grid-maxWidth: 120rem;
     --grid-gutter: 2rem;
-  --font-size: 1.6rem;
+    --font-size: 1.6rem;
     --font-family: "Inter UI", sans-serif;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 *, *:before, *:after {    
