@@ -6,8 +6,6 @@ dist: docs
 addons:
   chrome: stable
 script: true
-after_script:
-  - harp server docs
 
 deploy:
   provider: heroku
