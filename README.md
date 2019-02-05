@@ -1,18 +1,21 @@
 # Allegretto
 
 [![NPM](https://nodei.co/npm/allegretto.png?compact=true)](https://npmjs.org/package/allegretto)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/virtually-creative/allegretto)
+<br/>
+<img src="https://img.shields.io/npm/v/allegretto.svg">
+<a href="https://www.npmjs.com/package/allegretto"><img src="https://img.shields.io/npm/dt/allegretto.svg"></a>
+<a href="https://github.com/virtuallycreative/allegretto/issues"><img src="https://img.shields.io/github/issues/virtuallycreative/allegretto.svg"></a>
 
 Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patterns in mind.
 
-- Fast and lively! Just ~3kb (minified + gzipped).
+- Fast and lively! Just ~10kb (minified + gzipped, including normalize.css).
 - Build with Accessability in mind, A.O.D.A (WCAG-2) "AA" Compliant
 - Great for quick wireframing/prototyping
 - A 12-Col grid that actually works
 - Extend with your own CSS variables
 - Comes with a handful of components & utilities
 - Expects proper HTML5 semantic markup
-- No CSS Preprocessers used, just vanilla CSS3
+- No CSS Pre-processers used, just vanilla CSS3
 
 ## Get started
 

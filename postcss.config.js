@@ -1,23 +1,15 @@
-const postcssPresetEnv = require('postcss-preset-env');
+let plugins = [
+    require("postcss-import"),
+    require("autoprefixer")({ browsers: "last 2 versions" })
+  ];
 
-module.exports = {
-    plugins: [
-        require("postcss-reporter")({
-            clearReportedMessages: true,
-        }),
-        require('postcss-csso'),
-        require('postcss-import'),
-        postcssPresetEnv({
-            browsers: 'last 2 versions'
-        }),
-        require("stylelint")({
-            /* your options */ }),
-        require('cssnano')({
-            preset: ['default', {
-                discardComments: {
-                    removeAll: true,
-                },
-            }]
-        })
-    ],
-};
+  if (process.env.NODE_ENV == "production")
+    plugins.push(
+      require("cssnano")({
+        preset: "default"
+      })
+    );
+  
+  module.exports = {
+    plugins
+  };

@@ -5,12 +5,9 @@ node_js:
 dist: docs
 addons:
   chrome: stable
-
 script: true
-
 after_script:
-  - yarn build && harp server docs
-
+  - harp server docs
 
 deploy:
   provider: heroku
