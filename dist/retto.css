@@ -710,6 +710,11 @@ select {
   width: 1.6rem;
   height: 1.6rem;
 }
+.field:not(:last-child) {
+  margin-bottom: .75rem;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
 /* BUTTONS */
 .button,
 [type="button"],
