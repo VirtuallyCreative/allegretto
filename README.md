@@ -9,14 +9,15 @@
 
 Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patterns in mind.
 
-- Fast and lively! Just ~10kb (minified + gzipped, including normalize.css).
-- Build with Accessability in mind, A.O.D.A (WCAG-2) "AA" Compliant
+- Fast and lively. With Unpkg CDN goodness.
+- Build with Accessability in mind; A.O.D.A / W.C.A.G.
 - Great for quick wireframing/prototyping
-- A 12-Col grid that actually works
-- Extend with your own CSS variables
-- Comes with a handful of components & utilities
+- A simple 12-Col grid using flexbox
+- Easy to extend with your own CSS variables
+- Comes with a handful of components & utils
 - Expects proper HTML5 semantic markup
-- No CSS Pre-processers used, just vanilla CSS3
+- Normalize CSS reset baked in
+- No Pre-Processer here, just vanilla CSS-3
 
 ## Get started
 
