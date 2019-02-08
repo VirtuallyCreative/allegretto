@@ -22,7 +22,7 @@ textarea[type="text"] {
   width: 100%;
 }
 
-.field input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=color]):not([type=button]):not([type=reset]), select, textarea, textarea[type=text] {
+fieldset, .field input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=color]):not([type=button]):not([type=reset]), select, textarea, textarea[type=text] {
   width: 97%;
 }
 
@@ -67,7 +67,7 @@ select {
   height: 1.6rem;
 }
 
-.field:not(:last-child) {
+fieldset:not(:last-child), .field:not(:last-child) {
   margin-bottom: .75rem;
   margin: 1.5rem 0;
   line-height: 1.5;
