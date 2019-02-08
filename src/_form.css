@@ -22,6 +22,11 @@ textarea[type="text"] {
   width: 100%;
 }
 
+.field input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=color]):not([type=button]):not([type=reset]), select, textarea, textarea[type=text] {
+  width: 97%;
+}
+
+
 input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not[disabled]:hover,
 select:hover,
 textarea:hover,
@@ -96,6 +101,7 @@ button {
 .grouped > input:not(:last-child),
 .grouped > .button:not(:last-child) {
   margin-right: 16px;
+  margin-bottom: 0.5em;
 }
 
 .button + .button {
