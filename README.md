@@ -6,6 +6,7 @@
 <a href="https://www.npmjs.com/package/allegretto"><img src="https://img.shields.io/npm/dt/allegretto.svg"></a>
 <a href="https://github.com/virtuallycreative/allegretto/issues"><img src="https://img.shields.io/github/issues/virtuallycreative/allegretto.svg"></a>
 [![Build Status](https://travis-ci.org/VirtuallyCreative/allegretto.svg?branch=master)](https://travis-ci.org/VirtuallyCreative/allegretto)
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/allegretto)
 
 Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patterns in mind.
 
