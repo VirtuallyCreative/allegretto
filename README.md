@@ -44,4 +44,4 @@ Allegretto is designed using the latest features of CSS-3. Staying true to the n
 
 ---
 
-&copy;2018 Virtually(Creative) | Code released under the [MIT license](https://raw.githubusercontent.com/VirtuallyCreative/allegretto/master/LICENSE).
+&copy;2019 Virtually(Creative) | Code released under the [MIT license](https://raw.githubusercontent.com/VirtuallyCreative/allegretto/master/LICENSE).
