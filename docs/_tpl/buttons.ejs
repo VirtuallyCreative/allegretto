@@ -1,6 +1,13 @@
 <section id="buttons">
   <h4>Buttons</h4>
-  <p>Allegretto includes five predefined button styles, each serving its own semantic purpose.</p>
+  <p>Allegretto includes 3 predefined button styles, each serving its own semantic purpose.</p>
+  <ul>
+    <li>Filled (Default)</li>
+    <li>Outlined</li>
+    <li>With Icons</li>
+  </ul>
+  <hr>
+  <h5>Filled (Default)</h5>
   <div class="row">
     <div class="col-4">
       <div class="buttons">
@@ -10,11 +17,49 @@
         <a class="button dark">Dark</a>
         <a class="button error">Error</a>
         <a class="button success">Success</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <pre><code class=" prettyprint html">
+  &lt;a class=&quot;button&quot;&gt;Default&lt;/a&gt;
+  &lt;a class=&quot;button primary&quot;&gt;Primary&lt;/a&gt;
+  &lt;a class=&quot;button secondary&quot;&gt;Secondary&lt;/a&gt;
+  &lt;a class=&quot;button dark&quot;&gt;Dark&lt;/a&gt;
+  &lt;a class=&quot;button error&quot;&gt;Error&lt;/a&gt;
+  &lt;a class=&quot;button success&quot;&gt;Success&lt;/a&gt;
+      </code></pre>
+    </div>
+  </div>
+  <hr>
+  <h5>Outlined</h5>
+  <div class="row">
+
+    <div class="col-4">
+      <div class="buttons">
         <a class="button outline">Outline</a>
         <a class="button outline primary">Primary outline</a>
         <a class="button outline secondary">Secondary outline</a>
         <a class="button outline dark">Dark outline</a>
         <a class="button clear">Clear</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <pre><code class=" prettyprint html">
+  &lt;a class=&quot;button outline&quot;&gt;Outline&lt;/a&gt;
+  &lt;a class=&quot;button outline primary&quot;&gt;Primary outline&lt;/a&gt;
+  &lt;a class=&quot;button outline secondary&quot;&gt;Secondary outline&lt;/a&gt;
+  &lt;a class=&quot;button outline dark&quot;&gt;Dark outline&lt;/a&gt;
+  &lt;a class=&quot;button clear&quot;&gt;Clear&lt;/a&gt;
+      </code></pre>
+    </div>
+    <br>
+  </div>
+  <hr>
+  <h5>With Icons</h5>
+  <div class="row">
+
+    <div class="col-4">
+      <div class="buttons">
         <button type="button" class="button primary icon">New file
           <img src="https://icongr.am/feather/file.svg?size=16&amp;color=ffffff" alt="icon">
         </button>
@@ -23,21 +68,14 @@
         </button>
       </div>
     </div>
-    <div class="col">
+    <div class="col-8">
       <pre><code class=" prettyprint html">
-  &lt;a class=&quot;button&quot;&gt;Default&lt;/a&gt;
-  &lt;a class=&quot;button primary&quot;&gt;Primary&lt;/a&gt;
-  &lt;a class=&quot;button secondary&quot;&gt;Secondary&lt;/a&gt;
-  &lt;a class=&quot;button dark&quot;&gt;Dark&lt;/a&gt;
-  &lt;a class=&quot;button error&quot;&gt;Error&lt;/a&gt;
-  &lt;a class=&quot;button success&quot;&gt;Success&lt;/a&gt;
-  &lt;a class=&quot;button outline&quot;&gt;Outline&lt;/a&gt;
-  &lt;a class=&quot;button outline primary&quot;&gt;Primary outline&lt;/a&gt;
-  &lt;a class=&quot;button outline secondary&quot;&gt;Secondary outline&lt;/a&gt;
-  &lt;a class=&quot;button outline dark&quot;&gt;Dark outline&lt;/a&gt;
-  &lt;a class=&quot;button clear&quot;&gt;Clear&lt;/a&gt;
-  &lt;button type=&quot;button&quot; class=&quot;button primary icon&quot;&gt;New file &lt;img src=&quot;https://icongr.am/feather/file.svg?size=16&amp;amp;color=ffffff&quot; alt=&quot;icon&quot;&gt; &lt;/button&gt;
-  &lt;button class=&quot;button icon-only&quot;&gt; &lt;img src=&quot;https://icongr.am/feather/search.svg?size=24&quot;&gt; &lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;button primary icon&quot;&gt; New file
+  &lt;img src=&quot;https://icongr.am/feather/file.svg?size=16&amp;amp;color=ffffff&quot; alt=&quot;icon&quot;&gt;
+  &lt;/button&gt;
+  &lt;button class=&quot;button icon-only&quot;&gt;
+    &lt;img src=&quot;https://icongr.am/feather/search.svg?size=24&quot;&gt;
+  &lt;/button&gt;
       </code></pre>
     </div>
   </div>

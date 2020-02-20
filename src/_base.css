@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 :root {
   --color-primary: #0099cc;
   --color-lightGrey: #d2d6dd;
@@ -18,14 +20,24 @@
   /* easier to change box-sizing when code is introduced through 3rd party plugins */
 }
 
+html {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  /*fallback*/
+  font-family: var(--font-family);
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   font-size: var(--font-size);
   font-weight: 400;
-  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
-  /*fallback*/
-  font-family: var(--font-family);
+
   margin: 0;
   padding: 0;
 }

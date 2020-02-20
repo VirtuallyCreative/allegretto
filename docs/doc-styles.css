@@ -1,5 +1,6 @@
 :root {
-    --font-family: "Inter UI", sans-serif;
+    --grid-maxWidth: 98rem;
+    /* max container width 1080px */
 }
 
 body {
