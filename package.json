@@ -26,6 +26,9 @@
   "bugs": {
     "url": "https://github.com/VirtuallyCreative/allegretto/issues/new"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "browser-sync": "^2.26.7",
