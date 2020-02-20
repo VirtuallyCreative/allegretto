@@ -1,11 +1,13 @@
 # Allegretto
 
 [![NPM](https://nodei.co/npm/allegretto.png?compact=true)](https://npmjs.org/package/allegretto)
-<br/>
+<br />
 <img src="https://img.shields.io/npm/v/allegretto.svg">
 <a href="https://www.npmjs.com/package/allegretto"><img src="https://img.shields.io/npm/dt/allegretto.svg"></a>
-<a href="https://github.com/virtuallycreative/allegretto/issues"><img src="https://img.shields.io/github/issues/virtuallycreative/allegretto.svg"></a>
-[![Build Status](https://travis-ci.org/VirtuallyCreative/allegretto.svg?branch=master)](https://travis-ci.org/VirtuallyCreative/allegretto)
+<a href="https://github.com/virtuallycreative/allegretto/issues"><img
+    src="https://img.shields.io/github/issues/virtuallycreative/allegretto.svg"></a>
+[![Build
+Status](https://travis-ci.org/VirtuallyCreative/allegretto.svg?branch=master)](https://travis-ci.org/VirtuallyCreative/allegretto)
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/allegretto)
 
 Built for rapid wireframing / prototyping while keeping W.C.A.G. 2 design patterns in mind.
@@ -40,8 +42,10 @@ yarn allegretto
 
 ### CSS PreProcessor Support (LESS/SASS/STYLUS)
 
-Allegretto is designed using the latest features of CSS-3. Staying true to the notions of *ease-of-use* and *minimalism*, it doesn't use any CSS pre-processor or overly-complex build process.
+Allegretto is designed using the latest features of CSS-3. Staying true to the notions of *ease-of-use* and
+*minimalism*, it doesn't use any CSS pre-processor or overly-complex build process.
 
 ---
 
-&copy;2019 Virtually(Creative) | Code released under the [MIT license](https://raw.githubusercontent.com/VirtuallyCreative/allegretto/master/LICENSE).
+&copy;2019 Virtually(Creative) | Code released under the [MIT
+license](https://raw.githubusercontent.com/VirtuallyCreative/allegretto/master/LICENSE).

@@ -22,12 +22,16 @@ textarea[type="text"] {
   width: 100%;
 }
 
-fieldset, .field input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=color]):not([type=button]):not([type=reset]), select, textarea, textarea[type=text] {
+fieldset,
+.field input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=color]):not([type=button]):not([type=reset]),
+select,
+textarea,
+textarea[type=text] {
   width: 97%;
 }
 
 
-input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not[disabled]:hover,
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not([disabled]):hover,
 select:hover,
 textarea:hover,
 textarea[type="text"]:hover {
@@ -67,7 +71,8 @@ select {
   height: 1.6rem;
 }
 
-fieldset:not(:last-child), .field:not(:last-child) {
+fieldset:not(:last-child),
+.field:not(:last-child) {
   margin-bottom: .75rem;
   margin: 1.5rem 0;
   line-height: 1.5;
@@ -98,13 +103,13 @@ button {
   display: flex;
 }
 
-.grouped > input:not(:last-child),
-.grouped > .button:not(:last-child) {
+.grouped>input:not(:last-child),
+.grouped>.button:not(:last-child) {
   margin-right: 16px;
   margin-bottom: 0.5em;
 }
 
-.button + .button {
+.button+.button {
   margin-left: 1rem;
 }
 
@@ -190,9 +195,10 @@ button[disabled]:hover {
   align-items: center;
 }
 
-.button.icon > img {
+.button.icon>img {
   margin-left: 2px;
 }
+
 .button.icon-only {
   padding: 1rem;
 }

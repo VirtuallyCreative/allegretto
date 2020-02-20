@@ -1,3 +1,7 @@
+:root {
+    --font-family: "Inter UI", sans-serif;
+}
+
 body {
     background: white url(./bg.jpg) top left repeat;
     font-weight: 400;

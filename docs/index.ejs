@@ -25,8 +25,10 @@
       <li> Easy to <a href="#customizing">extend</a> with your own CSS variables</li>
       <li> Comes with a handful of <a href="#components">components</a> &amp; <a href="#utilities">utils</a></li>
       <li> Expects proper HTML5 semantic markup</li>
-      <li> <a href="http://nicolasgallagher.com/about-normalize-css/" target="_blank">Normalize CSS</a> reset baked in</li>
-      <li> No Pre-Processer here, just vanilla CSS-3 </li>
+      <li> <a href="http://nicolasgallagher.com/about-normalize-css/" target="_blank">Normalize CSS</a> reset baked in
+      </li>
+      <li> Use bleeding-edge CSS thanks to [PostCSS
+        "pre-processing"](https://css-tricks.com/the-trouble-with-preprocessing-based-on-future-specs/)</li>
     </ul>
   </section>
 
@@ -43,13 +45,16 @@
     <p>You can get the latest release on Github.</p>
     <p>
       <a href="<%= gitURL %>" class="button outline primary">Visit Repo</a>
+    </p>
+    <p>
       <a href="<%= zipURL %>" class="button outline secondary">Download .zip</a>
     </p>
     <p>You can also come and join-in on the chat!</p>
     <p><a href="https://spectrum.chat/allegretto" class="button secondary">Join the Community on Spectrum</a></p>
     <br>
     <p>Install it from
-      <code>npm</code> or <code>yarn</code> like so: <code>npm allegretto</code> or <code>yarn allegretto</code>
+      <code>npm</code> or <code>yarn</code> like so: <br />
+      <code>npm allegretto</code> or <code>yarn allegretto</code>
     </p>
   </section>
 
@@ -69,7 +74,8 @@
     <p>
       Allegretto was created as a lightweight framework to help prototype front-end markup that requires strict
       A.O.D.A. (WCAG 2.0) compliance by taking advantage of
-      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">HTML5
+      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines"
+        target="_blank">HTML5
         Semantic markup structures</a>.
     </p>
     <p>Below is a
@@ -77,7 +83,8 @@
     <br>
     <h3 id="customizing">Customizing</h3>
     <p>allegretto comes with a basic set of
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:
+    </p>
     <pre><code class=" prettyprint css">
   :root {
     --color-primary: #0099cc;
@@ -93,15 +100,16 @@
   }
       </code></pre>
     <br>
-    <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>retto.css</code>.</p>
+    <p>To override the variables, just add them to your <code>:root</code> selector after importing
+      <code>retto.css</code>.</p>
 
     <pre><code class=" prettyprint css">
-      @import url(retto.css) 
-      :root { 
-        --primary-color: #da1d50; /* brand color */ 
+      @import url(retto.css)
+      :root {
+        --primary-color: #da1d50; /* brand color */
         --grid-maxWidth: 108rem; /* max container width 1080px */
-        --font: 0.9rem/1.2 "Roboto", sans-serif; /* size/line-height | family */
-      } 
+        --font: 0.9rem/1.2 "Inter UI", sans-serif; /* size/line-height | family */
+      }
       /* Other styles..... */
     </code></pre>
   </section>
@@ -143,7 +151,8 @@
     <%- partial('_tpl/helpers'); %>
     <br>
     <p class="is-center">
-      <a class="button primary outline" target="_blank" href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=Allegretto%20-%20A%20fast%20lively%20CSS%20framework&via=vip3rousmango&hashtags=web,css,flexbox">Give
+      <a class="button primary outline" target="_blank"
+        href="https://twitter.com/intent/tweet?url=<%= docsURL %>&text=Allegretto%20-%20A%20fast%20lively%20CSS%20framework&via=vip3rousmango&hashtags=web,css,flexbox">Give
         a shout-out</a>
     </p>
   </section>

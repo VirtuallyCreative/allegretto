@@ -27,14 +27,14 @@
     "url": "https://github.com/VirtuallyCreative/allegretto/issues/new"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.7.4",
     "browser-sync": "^2.26.7",
+    "cross-env": "^7.0.0",
     "cssnano": "^4.1.10",
-    "ejs-lint": "^0.3.0",
-    "postcss-cli": "^6.1.3",
-    "postcss-csso": "^3.0.0",
+    "ejs-lint": "^1.0.1",
+    "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
-    "cross-env": "^5.2.0"
+    "postcss-preset-env": "^6.7.0"
   },
   "files": [
     "src/",
@@ -42,7 +42,7 @@
     "README.md"
   ],
   "dependencies": {
-    "harp": "^0.30.0"
+    "harp": "^0.31.0"
   },
   "browserslist": [
     "defaults"

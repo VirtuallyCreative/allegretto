@@ -6,15 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>allegretto - A fast &amp; lively CSS framework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Sentry.IO -->
-    <script src="https://browser.sentry-cdn.com/4.5.3/bundle.min.js" crossorigin="anonymous"></script>
-    <script>
-    Sentry.init({ dsn: 'https://a3f28d93143d4a46bd2e761ec08cbc2f@sentry.io/1389527' });
+    <!-- HEAP ANALYTICS -->
+    <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function (e, t) {
+            window.heap.appid = e, window.heap.config = t = t || {};
+            var r = document.createElement("script");
+            r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js";
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(r, a);
+            for (var n = function (e) {
+                    return function () {
+                        heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
+                    "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
+                ], o = 0; o < p.length; o++) heap[p[o]] = n(p[o])
+        };
+        heap.load("2668003571");
     </script>
-    
+
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="https://unpkg.com/allegretto">
-
     <link rel="stylesheet" href="./doc-styles.css">
 
 
@@ -27,27 +39,36 @@
     <%- yield %>
 
 
-        <!-- Matomo -->
+    <!-- Matomo -->
     <script type="text/javascript">
-    var _paq = _paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["setDomains", ["*.allegretto.herokuapp.com"]]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-    var u="//analytics.virtuallycreative.ca/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '4']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDomains", ["*.allegretto.herokuapp.com"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.virtuallycreative.ca/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '4']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
     </script>
-    <noscript><p><img src="//analytics.virtuallycreative.ca/piwik.php?idsite=4&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <noscript>
+        <p><img src="//analytics.virtuallycreative.ca/piwik.php?idsite=4&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
     <!-- End Matomo Code -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11177404-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -55,8 +76,9 @@
         gtag('config', 'UA-11177404-3');
     </script>
     <script>
-    // init Feather Icons
-    feather.replace()
-  </script>
+        // init Feather Icons
+        feather.replace()
+    </script>
 </body>
+
 </html>

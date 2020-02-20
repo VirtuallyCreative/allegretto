@@ -1,19 +1,21 @@
 :root {
-    --color-primary: #0099cc;
-    --color-lightGrey: #d2d6dd;
-    --color-grey: #7e818b;
-    --color-darkGrey: #3f4144;
-    --color-error: #d43939;
-    --color-success: #28bd14;
-    --grid-maxWidth: 120rem;
-    --grid-gutter: 2rem;
-    --font-size: 1.6rem;
-    --font-family: "Inter UI", sans-serif;
+  --color-primary: #0099cc;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #7e818b;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-family: "Inter UI", sans-serif;
 }
 
-*, *:before, *:after {    
-    box-sizing: inherit;  
-    /* easier to change box-sizing when code is introduced through 3rd party plugins */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  /* easier to change box-sizing when code is introduced through 3rd party plugins */
 }
 
 body {
@@ -21,7 +23,8 @@ body {
   line-height: 1.6;
   font-size: var(--font-size);
   font-weight: 400;
-  font-family: "Segoe UI", "Helvetica Neue", sans-serif; /*fallback*/
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  /*fallback*/
   font-family: var(--font-family);
   margin: 0;
   padding: 0;
@@ -70,22 +73,23 @@ a:hover:not(.button) {
   opacity: 0.75;
 }
 
-p, section {
-    margin: 1.5rem 0;
-    font-size: 1rem;
-    line-height: 1.5;
+p,
+section {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 p a {
-    text-decoration: none;
-    text-shadow: 0.05em 0 0 var(--color-lightGrey), -0.05em 0 0 var(--color-lightGrey),
-        0 0 .05em 0 var(--color-lightGrey), 0 -0.05em 0 var(--color-lightGrey),
-        0.1em 0 0 var(--color-lightGrey), -0.1em 0 0 var(--color-lightGrey),
-        0 0.1em 0 var(--color-lightGrey), 0 -0.1em 0 var(--color-lightGrey);
-    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
-    background-repeat: repeat-x;
-    background-position: bottom 0.05em center;
-    background-size: 100% 0.05em;
+  text-decoration: none;
+  text-shadow: 0.05em 0 0 var(--color-lightGrey), -0.05em 0 0 var(--color-lightGrey),
+    0 0 .05em 0 var(--color-lightGrey), 0 -0.05em 0 var(--color-lightGrey),
+    0.1em 0 0 var(--color-lightGrey), -0.1em 0 0 var(--color-lightGrey),
+    0 0.1em 0 var(--color-lightGrey), 0 -0.1em 0 var(--color-lightGrey);
+  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-repeat: repeat-x;
+  background-position: bottom 0.05em center;
+  background-size: 100% 0.05em;
 }
 
 blockquote {
@@ -141,20 +145,20 @@ tt {
 
 code,
 kbd {
-    padding: 0 0.4rem;
-    font-size: 90%;
-    white-space: pre-wrap;
-    border-radius: 4px;
-    color: #c62424;
-    padding: 0.2em 0.4em;
-    background-color: #f7f7f7;
+  padding: 0 0.4rem;
+  font-size: 90%;
+  white-space: pre-wrap;
+  border-radius: 4px;
+  color: #c62424;
+  padding: 0.2em 0.4em;
+  background-color: #f7f7f7;
 }
 
 pre {
-    background-color: #f7f7f7;
-    font-size: 1em;
-    padding: 1rem;
-    overflow-x: auto;
+  background-color: #f7f7f7;
+  font-size: 1em;
+  padding: 1rem;
+  overflow-x: auto;
 }
 
 pre code {
