@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
   --color-primary: #0099cc;
@@ -10,7 +10,7 @@
   --grid-maxWidth: 120rem;
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
-  --font-family: "Inter UI", sans-serif;
+  --font-family: "Inter", sans-serif;
 }
 
 *,
