@@ -45,7 +45,7 @@
     "README.md"
   ],
   "dependencies": {
-    "harp": "^0.31.0"
+    "harp": "^0.40.2"
   },
   "browserslist": [
     "defaults"
